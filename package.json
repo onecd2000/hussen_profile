@@ -1,0 +1,14 @@
+{
+  "name": "hussein_portal",
+  "version": "1.0.0",
+  "description": "profile page ",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
