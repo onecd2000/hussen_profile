@@ -161,13 +161,19 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  grid-template-areas: 'bioimage bio bioimage2' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
     border: #eece1a 3px solid; }
+  .about-info .bio-image-2 {
+    grid-area: bioimage2;
+    margin: auto;
+    border-radius: 50%;
+    border: #eece1a 3px solid;
+    width: 130px; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -317,7 +323,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: 'bioimage2' 'bioimage' 'bio' 'job1' 'job2' 'job3';
     grid-template-columns: 1fr; }
     .about-info .bio {
       grid-area: bio;
