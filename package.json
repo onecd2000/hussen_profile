@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "profile page ",
   "main": "index.js",
+  "homepage": "https://onecd2000.github.io/hussen_profile",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^2.0.0",
     "node-sass": "^4.9.3"
   }
 }

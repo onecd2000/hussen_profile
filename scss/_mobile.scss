@@ -61,6 +61,18 @@
       'job3';
 
     grid-template-columns: 1fr;
+
+    .bio {
+      grid-area: bio;
+      font-size: 1.5rem;
+    }
+
+    .job {
+      background: lighten($primary-color, 5);
+      padding: 0.5rem;
+      border-bottom: $secondary-color 5px solid;
+      font-size: 1rem;
+    }
   }
 
   .projects {
